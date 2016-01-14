@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -76,6 +76,63 @@
 		54B05C2D0EB5AD8200C02D6D /* fuse_biglock_vnops.c in Sources */ = {isa = PBXBuildFile; fileRef = 54B05C2B0EB5AD8200C02D6D /* fuse_biglock_vnops.c */; };
 		54B05C2E0EB5AD8200C02D6D /* fuse_biglock_vnops.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B05C2C0EB5AD8200C02D6D /* fuse_biglock_vnops.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		38AEB20A1C47F8EB00A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# <com.apple.compilers.metal.osx>\n";
+		};
+		38AEB20B1C47F8FF00A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+		38AEB20C1C47F90F00A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.scnassets;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# copySceneKitAssets\n";
+		};
+		38AEB20D1C47F91500A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist.strings;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyStrings\n";
+		};
+		38AEB20E1C47F92F00A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.dtrace;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "/usr/sbin/dtrace\n";
+		};
+		38AEB20F1C47F94A00A22B6C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# <com.apple.compilers.gcc>\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		540966190C33B4DA00F5E227 /* PBXContainerItemProxy */ = {
@@ -390,6 +447,12 @@
 				54D47B7E0B4F610000A8FE1C /* Frameworks */,
 			);
 			buildRules = (
+				38AEB20F1C47F94A00A22B6C /* PBXBuildRule */,
+				38AEB20E1C47F92F00A22B6C /* PBXBuildRule */,
+				38AEB20D1C47F91500A22B6C /* PBXBuildRule */,
+				38AEB20C1C47F90F00A22B6C /* PBXBuildRule */,
+				38AEB20B1C47F8FF00A22B6C /* PBXBuildRule */,
+				38AEB20A1C47F8EB00A22B6C /* PBXBuildRule */,
 			);
 			comments = "Command-line utility that loads the MacFUSE kernel extension";
 			dependencies = (
@@ -405,9 +468,15 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					54D47B7F0B4F610000A8FE1C = {
+						DevelopmentTeam = 52SPX74RY4;
+					};
+				};
 			};
 			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "osxfusefs" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -560,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 437490F413B190D9009EAA5E /* osxfusefs.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DWARF_DSYM_FOLDER_PATH = "$(CONFIGURATION_BUILD_DIR)/Debug";
@@ -568,6 +638,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -607,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 437490F413B190D9009EAA5E /* osxfusefs.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
@@ -615,6 +687,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -655,7 +728,7 @@
 		1DEB91C808733DAC0010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ENABLE_TESTABILITY = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -663,6 +736,7 @@
 				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				INFOPLIST_PREPROCESS = YES;
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DOSXFUSE_ENABLE_MACFUSE_MODE=1";
 				SDKROOT = macosx;
 			};
@@ -671,7 +745,6 @@
 		1DEB91C908733DAC0010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -698,6 +771,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -736,6 +810,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -773,6 +848,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = All;
 				VERSIONING_SYSTEM = "";
 			};
@@ -785,6 +861,7 @@
 				CURRENT_PROJECT_VERSION = "";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = All;
 				VERSIONING_SYSTEM = "";
 			};
@@ -797,6 +874,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = osxfusefs.fs;
 			};
 			name = Debug;
@@ -807,6 +885,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = osxfusefs.fs;
 			};
 			name = Release;
@@ -814,6 +893,9 @@
 		54D47B910B4F614B00A8FE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -823,6 +905,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -845,7 +928,9 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				INSTALL_PATH = "$(HOME)/bin";
+				LD_NO_PIE = YES;
 				PRODUCT_NAME = load_osxfusefs;
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "ppc i386 x86_64";
 			};
 			name = Debug;
@@ -853,6 +938,9 @@
 		54D47B920B4F614B00A8FE1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -861,6 +949,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -883,7 +972,9 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				INSTALL_PATH = "$(HOME)/bin";
+				LD_NO_PIE = YES;
 				PRODUCT_NAME = load_osxfusefs;
+				PROVISIONING_PROFILE = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "ppc i386 x86_64";
 			};
