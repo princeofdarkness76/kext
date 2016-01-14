@@ -566,6 +566,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Studiogit;
 =======
@@ -576,6 +577,8 @@
 =======
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
 			};
 			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "osxfusefs" */;
 			compatibilityVersion = "Xcode 3.1";
