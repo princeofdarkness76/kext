@@ -1774,6 +1774,9 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1792,12 +1795,15 @@ calldaemon:
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
 =======
 >>>>>>> master
          * if (op == FUSE_GETATTR) {
@@ -1819,6 +1825,7 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -1826,6 +1833,9 @@ calldaemon:
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master
@@ -3971,6 +3981,9 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -3992,12 +4005,15 @@ fuse_vnop_write(struct vnop_write_args *ap)
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
 =======
 >>>>>>> master
             if (diff) {
@@ -4018,6 +4034,7 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -4025,6 +4042,9 @@ fuse_vnop_write(struct vnop_write_args *ap)
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master

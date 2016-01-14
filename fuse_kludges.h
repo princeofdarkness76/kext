@@ -23,6 +23,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -33,12 +36,15 @@
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
 =======
 >>>>>>> master
  * # 10.5        10.6-32     10.6-64     10.11-64
@@ -50,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -57,6 +64,9 @@
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master
@@ -88,6 +98,7 @@ struct fuse_selinfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -95,6 +106,9 @@ struct fuse_selinfo {
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master
@@ -115,6 +129,9 @@ struct fuse_selinfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -159,12 +176,15 @@ struct fuse_selinfo {
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
 =======
 >>>>>>> master
  * # 10.5        10.6-32     10.6-64     10.7-32     10.7-64     10.9-64
@@ -185,6 +205,7 @@ struct fuse_selinfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -192,6 +213,9 @@ struct fuse_selinfo {
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master
