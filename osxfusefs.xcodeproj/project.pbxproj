@@ -179,6 +179,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38AEB2101C47FC5300A22B6C /* kext */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kext; sourceTree = "<group>"; };
 		433E5DC113B2D1B300A523B2 /* osxfusefs.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxfusefs.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		433E5DC213B2D1B300A523B2 /* load_osxfusefs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = load_osxfusefs; sourceTree = BUILT_PRODUCTS_DIR; };
 		433E5DC413B2D1B300A523B2 /* mount_osxfusefs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mount_osxfusefs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +262,7 @@
 			children = (
 				437490F413B190D9009EAA5E /* osxfusefs.xcconfig */,
 				549960D00EC093D800DDFCAD /* osxfusefs.exports */,
+				38AEB2101C47FC5300A22B6C /* kext */,
 				540966510C33B5F500F5E227 /* Common */,
 				54C6DD780B5EEB44002D9FD9 /* Kernel Extension */,
 				540966330C33B54F00F5E227 /* Helpers */,
