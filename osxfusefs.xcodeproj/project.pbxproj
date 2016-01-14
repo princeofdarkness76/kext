@@ -588,6 +588,7 @@
 			attributes = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Studiogit;
 				TargetAttributes = {
@@ -610,6 +611,8 @@
 			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "osxfusefs" */;
 			compatibilityVersion = "Xcode 3.2";
 =======
+=======
+>>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
 			};
@@ -1028,7 +1031,10 @@
 				OTHER_CFLAGS = "-DOSXFUSE_ENABLE_MACFUSE_MODE=1";
 				SDKROOT = macosx;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> pod/osxfuse-kext
+=======
+>>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
 			};
@@ -1335,7 +1341,10 @@
 =======
 				PRODUCT_NAME = load_osxfusefs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> pod/osxfuse-kext
+=======
+>>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
 				VALID_ARCHS = "ppc i386 x86_64";

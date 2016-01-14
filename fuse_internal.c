@@ -1463,9 +1463,12 @@ fuse_internal_strategy(vnode_t vp, buf_t bp)
                  * but that's preferable to an infinite loop.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
                  */
