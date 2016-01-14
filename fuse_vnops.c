@@ -1772,6 +1772,7 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          * // ATTR_FUDGE_CASE
          * if (vnode_isreg(*vpp) && fuse_isnoubc(vp)) {
          *     VTOFUD(*vpp)->filesize = fuse_attr_get_size(&fattr);
@@ -1788,6 +1789,8 @@ calldaemon:
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
          * if (op == FUSE_GETATTR) {
          *     // ATTR_FUDGE_CASE
          *     if (vnode_isreg(*vpp) && fuse_isnoubc(vp)) {
@@ -1805,6 +1808,7 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -1812,6 +1816,8 @@ calldaemon:
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
          * }
          */
 
@@ -3947,6 +3953,7 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } else if (diff > 0) {
                 /*
                  * The write operation could not be fully executed.
@@ -3966,6 +3973,8 @@ fuse_vnop_write(struct vnop_write_args *ap)
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
             if (diff) {
                 /*
                  * Note that merely updating the residue and offset leaves
@@ -3982,6 +3991,7 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -3989,6 +3999,8 @@ fuse_vnop_write(struct vnop_write_args *ap)
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
 
                 break;
             }

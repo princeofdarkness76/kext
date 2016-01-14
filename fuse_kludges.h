@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * sizeof(struct selinfo)
 =======
 =======
@@ -29,6 +30,8 @@
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
  * # 10.5        10.6-32     10.6-64     10.11-64
  *
  * # sizeof(struct selinfo)
@@ -36,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -43,6 +47,8 @@
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
  *
  *     10.5               24
  *     10.6    i386       24
@@ -64,6 +70,7 @@ struct fuse_selinfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -71,12 +78,15 @@ struct fuse_selinfo {
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
 #endif
 };
 
 #endif /* M_OSXFUSE_ENABLE_DSELECT */
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +133,8 @@ struct fuse_selinfo {
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
  * # 10.5        10.6-32     10.6-64     10.7-32     10.7-64     10.9-64
  *
  * # sizeof(struct vnode)
@@ -139,6 +151,7 @@ struct fuse_selinfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -146,6 +159,8 @@ struct fuse_selinfo {
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> osxfuse/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
  */
 
 struct fuse_kludge_vnode_9
