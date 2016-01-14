@@ -1773,6 +1773,9 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
          * // ATTR_FUDGE_CASE
@@ -1788,12 +1791,15 @@ calldaemon:
 =======
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
          * if (op == FUSE_GETATTR) {
          *     // ATTR_FUDGE_CASE
          *     if (vnode_isreg(*vpp) && fuse_isnoubc(vp)) {
@@ -1812,6 +1818,7 @@ calldaemon:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -1819,6 +1826,9 @@ calldaemon:
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master
@@ -3960,6 +3970,9 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
             } else if (diff > 0) {
@@ -3978,12 +3991,15 @@ fuse_vnop_write(struct vnop_write_args *ap)
 =======
 >>>>>>> origin/osxfuse-2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> master
             if (diff) {
                 /*
                  * Note that merely updating the residue and offset leaves
@@ -4001,6 +4017,7 @@ fuse_vnop_write(struct vnop_write_args *ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
@@ -4008,6 +4025,9 @@ fuse_vnop_write(struct vnop_write_args *ap)
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> origin/osxfuse-2
+>>>>>>> master
 =======
 >>>>>>> origin/osxfuse-2
 >>>>>>> master

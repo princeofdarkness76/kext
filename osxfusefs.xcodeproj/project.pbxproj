@@ -8,7 +8,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	objectVersion = 46;
+=======
+	objectVersion = 45;
+>>>>>>> master
 =======
 	objectVersion = 45;
 >>>>>>> master
@@ -61,12 +65,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		38D776F91C47E16700E14343 /* osxfusefs.exports in Resources */ = {isa = PBXBuildFile; fileRef = 549960D00EC093D800DDFCAD /* osxfusefs.exports */; };
 		38D776FA1C47E16800E14343 /* osxfusefs.exports in CopyFiles */ = {isa = PBXBuildFile; fileRef = 549960D00EC093D800DDFCAD /* osxfusefs.exports */; };
 		38D776FE1C47E40600E14343 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38D777011C47E40600E14343 /* Property List.plist */; };
 		38D776FF1C47E40600E14343 /* Property List.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38D777011C47E40600E14343 /* Property List.plist */; };
 		38D777031C47E56200E14343 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D777021C47E56200E14343 /* Media.xcassets */; };
 		38D777041C47E56200E14343 /* Media.xcassets in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38D777021C47E56200E14343 /* Media.xcassets */; };
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -124,6 +131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		38D776F71C47E15900E14343 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38D776F31C47E15900E14343 /* osxfuse.xcodeproj */;
@@ -131,6 +139,8 @@
 			remoteGlobalIDString = 433E5DC113B2D1B300A523B2;
 			remoteInfo = osxfuse;
 		};
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -183,9 +193,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				38D776FF1C47E40600E14343 /* Property List.plist in CopyFiles */,
 				38D776FA1C47E16800E14343 /* osxfusefs.exports in CopyFiles */,
 				38D777041C47E56200E14343 /* Media.xcassets in CopyFiles */,
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -208,6 +221,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		38D776EC1C47E15800E14343 /* ABI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABI.txt; sourceTree = "<group>"; };
 		38D776ED1C47E15800E14343 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
 		38D776EE1C47E15800E14343 /* fuse_notify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_notify.c; sourceTree = "<group>"; };
@@ -218,6 +232,8 @@
 		38D776F31C47E15900E14343 /* osxfuse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = osxfuse.xcodeproj; sourceTree = "<group>"; };
 		38D777001C47E40600E14343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/Property List.plist"; sourceTree = "<group>"; };
 		38D777021C47E56200E14343 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -313,6 +329,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				38D777021C47E56200E14343 /* Media.xcassets */,
 				38D777011C47E40600E14343 /* Property List.plist */,
 				38D776EC1C47E15800E14343 /* ABI.txt */,
@@ -323,6 +340,8 @@
 				38D776F11C47E15800E14343 /* osxfuse-Info.plist */,
 				38D776F21C47E15800E14343 /* osxfuse.exports */,
 				38D776F31C47E15900E14343 /* osxfuse.xcodeproj */,
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -349,6 +368,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		38D776F41C47E15900E14343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +377,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -567,6 +589,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Studiogit;
 =======
@@ -579,6 +602,11 @@
 >>>>>>> osxfuse/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+			};
+			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "osxfusefs" */;
+			compatibilityVersion = "Xcode 3.1";
+>>>>>>> master
+=======
 			};
 			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "osxfusefs" */;
 			compatibilityVersion = "Xcode 3.1";
@@ -620,12 +648,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			projectReferences = (
 				{
 					ProductGroup = 38D776F41C47E15900E14343 /* Products */;
 					ProjectRef = 38D776F31C47E15900E14343 /* osxfuse.xcodeproj */;
 				},
 			);
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -652,6 +683,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Begin PBXReferenceProxy section */
 		38D776F81C47E15900E14343 /* osxfuse.kext */ = {
 			isa = PBXReferenceProxy;
@@ -672,6 +704,8 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> master
 /* Begin PBXResourcesBuildPhase section */
 		32A4FEBB0562C75700D090E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -682,9 +716,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				38D776FE1C47E40600E14343 /* Property List.plist in Resources */,
 				38D777031C47E56200E14343 /* Media.xcassets in Resources */,
 				38D776F91C47E16700E14343 /* osxfusefs.exports in Resources */,
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -809,6 +846,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		38D777011C47E40600E14343 /* Property List.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -817,6 +855,8 @@
 			name = "Property List.plist";
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -847,7 +887,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				COMBINE_HIDPI_IMAGES = YES;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -871,7 +914,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -926,7 +972,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				COMBINE_HIDPI_IMAGES = YES;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -950,7 +999,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1006,7 +1058,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				ENABLE_TESTABILITY = YES;
+=======
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+>>>>>>> master
 =======
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 >>>>>>> master
@@ -1034,7 +1090,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				ONLY_ACTIVE_ARCH = YES;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1058,6 +1117,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+>>>>>>> master
 =======
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 >>>>>>> master
@@ -1104,7 +1167,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1158,7 +1224,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1211,7 +1280,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1239,7 +1311,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1267,7 +1342,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1293,7 +1371,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1325,7 +1406,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -1379,7 +1463,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
