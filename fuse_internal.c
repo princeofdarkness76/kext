@@ -1462,9 +1462,12 @@ fuse_internal_strategy(vnode_t vp, buf_t bp)
                  * application as an I/O error rather than as a short count,
                  * but that's preferable to an infinite loop.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/osxfuse-2
 =======
 >>>>>>> origin/osxfuse-2
+=======
+>>>>>>> osxfuse/osxfuse-2
                  */
                 break;
             }
